@@ -1,4 +1,4 @@
-# :bookmark_tabs: EAT-HEALTHY 
+# :bookmark_tabs: Attendance through QR
   
 ## :thinking: Problem Statement:
 
