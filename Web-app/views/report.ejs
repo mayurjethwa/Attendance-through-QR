@@ -1,0 +1,54 @@
+<%- include("sidebar"); -%>
+
+
+<h1 style="align:center">Students</h1>
+
+<table class="table table-bordered"">
+  <thead>
+    <tr class="table-warning">
+      <th scope="col"> No.</th>
+      <th scope="col">Roll Number</th>
+      <th scope="col">Name</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+
+
+      <% for(var i = 0;i<=roll.length-1;i++){%>
+      <tr>
+        <form method="post">
+          <td>
+              <%= i+1 %>
+          </td>
+            <td>
+              <input type="hidden" class="table-success" name="rollNum" value="<%= roll[i] %>"><%= roll[i] %></input>
+            </td>
+
+
+
+
+            <td><input type="hidden" name="name" value="<%= name[i] %>"><%= name[i] %></input></td>
+
+            <td><button type="submit" name="button" class="btn btn-dark">View</button></td>
+        </form>
+
+
+
+      </tr>
+      <%}%>
+
+
+  </tbody>
+</table>
+
+
+
+<script type="text/javascript">
+  window.setTimeout( function() {
+    window.location.reload();
+  }, 300);
+</script>
+
+
+<%- include("footer"); -%>
