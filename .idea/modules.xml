@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/App.iml" filepath="$PROJECT_DIR$/.idea/App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Scandie.iml" filepath="$PROJECT_DIR$/.idea/modules/Scandie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Scandie.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Scandie.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Scandie.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Scandie.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Scandie.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Scandie.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Scandie.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Scandie.app.unitTest.iml" />
     </modules>
   </component>
 </project>
