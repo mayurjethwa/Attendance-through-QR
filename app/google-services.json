@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "830797174999",
+    "project_id": "scandie",
+    "storage_bucket": "scandie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830797174999:android:f8392ed3f54148b25c7892",
+        "android_client_info": {
+          "package_name": "com.example.scandie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830797174999-gjt3v506agnljevvvgspd3lp2dqqgq78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdPCNURPnrmzloI4u2rOAerMTaGvYt-Ic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830797174999-gjt3v506agnljevvvgspd3lp2dqqgq78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

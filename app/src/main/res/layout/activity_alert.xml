@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Alert">
+
+    <RelativeLayout
+        android:id="@+id/dashboard_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/notification" />
+
+        <ImageView
+            android:id="@+id/logout_btn"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/logout" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_nav"
+        android:layout_below="@+id/dashboard_top">
+
+
+
+        <LinearLayout
+            android:id="@+id/dashboard_mid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/alert_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/alert_card_CNab"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/alert_card"
+                    android:fontFamily="@font/alata"
+                    android:gravity="center"
+                    android:padding="13dp"
+                    android:text="Dear Student, Your overall attendance for july months is low "
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+
+                <TextView
+
+                    android:id="@+id/alert_card_CNpr"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/alert_card_green"
+                    android:fontFamily="@font/alata"
+                    android:gravity="center"
+                    android:padding="13dp"
+                    android:text="Dear Student, Your overall attendance for july months is low "
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/alert_card_IPab"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="95dp"
+                    android:background="@drawable/alert_card"
+                    android:fontFamily="@font/alata"
+                    android:gravity="center"
+                    android:padding="13dp"
+                    android:text="Dear Student, Your overall attendance for july months is low "
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/alert_card_IPpr"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="95dp"
+                    android:background="@drawable/alert_card_green"
+                    android:fontFamily="@font/alata"
+                    android:gravity="center"
+                    android:padding="13dp"
+                    android:text="Dear Student, Your overall attendance for july months is low "
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/alert_card_DWMab"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="190dp"
+                    android:background="@drawable/alert_card"
+                    android:fontFamily="@font/alata"
+                    android:gravity="center"
+                    android:padding="13dp"
+                    android:text="Dear Student, Your overall attendance for july months is low "
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/alert_card_DWMpr"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="190dp"
+                    android:background="@drawable/alert_card_green"
+                    android:fontFamily="@font/alata"
+                    android:gravity="center"
+                    android:padding="13dp"
+                    android:text="Dear Student, Your overall attendance for july months is low "
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+
+
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/alert_card_SEab"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="285dp"
+                    android:background="@drawable/alert_card"
+                    android:fontFamily="@font/alata"
+                    android:gravity="center"
+                    android:padding="13dp"
+                    android:text="Dear Student, Your overall attendance for july months is low "
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+
+                <TextView
+
+                    android:id="@+id/alert_card_SEpr"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="285dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/alert_card_green"
+                    android:fontFamily="@font/alata"
+                    android:gravity="center"
+                    android:padding="13dp"
+                    android:text="Dear Student, Your overall attendance for july months is low "
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/alert_card_TCSab"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="380dp"
+                    android:background="@drawable/alert_card"
+                    android:fontFamily="@font/alata"
+                    android:gravity="center"
+                    android:padding="13dp"
+                    android:text="Dear Student, Your overall attendance for july months is low "
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+
+                <TextView
+
+                    android:id="@+id/alert_card_TCSpr"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="380dp"
+                    android:background="@drawable/alert_card_green"
+                    android:fontFamily="@font/alata"
+                    android:gravity="center"
+                    android:padding="13dp"
+                    android:text="Dear Student, Your overall attendance for july months is low "
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="12dp"
+        android:layout_gravity="bottom"
+        android:background="@color/profile">
+
+        <!--        <Button-->
+        <!--            android:id="@+id/home_btn"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_alignParentLeft="true"-->
+        <!--            android:layout_marginLeft="10dp"-->
+        <!--            android:backgroundTint="@color/home"-->
+        <!--            android:text="Home"/>-->
+        <LinearLayout
+            android:id="@+id/home_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true">
+
+            <ImageButton
+                android:id="@+id/home_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:padding="3dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/dashboard" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+                android:text="Home"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/scan_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+            <ImageButton
+                android:padding="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:src="@drawable/scan"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:id="@+id/scan_btn"
+                android:background="@null"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Scan"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:fontFamily="@font/alata"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/profile_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp">
+            <ImageButton
+                android:padding="4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:src="@drawable/profile"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:id="@+id/profile_btn"
+                android:background="@null"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Profile"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:fontFamily="@font/alata"/>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
