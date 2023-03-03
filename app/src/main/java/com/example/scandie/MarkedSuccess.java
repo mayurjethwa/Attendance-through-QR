@@ -2,7 +2,6 @@ package com.example.scandie;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.LauncherActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
